@@ -1,12 +1,16 @@
 {
   "name": "autochanelog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lets try to write clean commit in a conventional way",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "release": "commit-and-tag-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "commit-and-tag-version": "^12.2.0"
+  }
 }
